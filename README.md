@@ -36,7 +36,7 @@ The program uses a **clean CLI interface**, a **gradient ASCII logo**, and a lig
 2. Choose one of the two options:
 
    * `[1] Dump compiled Batch` — start monitoring the configured directories and copy discovered `.bat` files to the script directory.
-   * `[2] Deobfuscate Batch` — provide a path to a `.bat` file and the script will remove the configured hex sequence and open the result in your system editor. (This only works for the Chinese Method)
+   * `[2] Deobfuscate Batch` — provide a path to a `.bat` file and the script will remove the configured hex sequence and open the result in your system editor. (This only works for the Chinese method)
 3. The tool prints progress to the console and saves discovered files for offline inspection.
 
 > ✅ When dumping, any discovered `.bat` will be copied into the same folder as `main.py`. When deobfuscating, the file is modified in-place (make backups if needed).
