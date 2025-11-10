@@ -92,6 +92,7 @@ The script removes the following hex byte sequence (shown as hex groups):
 ```
 FF FE 26 63 6C 73 0D 0A FF FE 0A 0D
 ```
+<img width="669" height="97" alt="image" src="https://github.com/user-attachments/assets/1ea099de-ffa9-4a73-a87e-f5a020350e42" />
 
 You can change the target pattern by editing the `utility.delete_hex()` call in `BatchDump.deobfuscate()`, but doing so is not recommended as it may break the deobfuscation process.
 
